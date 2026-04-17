@@ -1,0 +1,17 @@
+{
+  "name": "therapyportal-scraper",
+  "version": "1.0.0",
+  "description": "Headless browser service to scrape TherapyPortal availability",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
